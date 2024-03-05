@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>DND Character Sheet</title>
+    <script  src="scripts.js" async></script>
+</head>
+<body>
+    <h1>DND Character Sheet</h1>
+
+    <h2>Choose Race</h2>
+    <input type="text" id="raceInput" placeholder="Enter race" />
+    <button id="raceSearchButton">Search</button>
+    <div id="raceResult" class="race-result"></div>
+
+    <p>Attribute Points Array</p>
+    <button id="dice" onclick="rollDice()">Roll</button>
+    <div id='rollArray'></div>
+
+
+    <h2>Spell Search</h2>
+    <input type="text" id="spellInput" placeholder="Enter a spell name" />
+    <button id="spellSearchButton">Search</button>
+    <div id="spellResult" class="spell-result"></div>
+    <div id='spellName'></div>
+    <div id='spellDescription'></div>
+</body>
+</html>
